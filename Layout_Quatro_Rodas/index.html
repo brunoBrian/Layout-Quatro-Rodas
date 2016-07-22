@@ -1,0 +1,175 @@
+<!Doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Quatro Rodas</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+	<link href="bootstrap/bootstrap-responsive.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	
+	
+</head>
+<body>
+	<!-- Topo -->
+	<div class="topo" >
+		<a href="#"><img src="images/banner.png" id="topoBanner"></a>
+	</div>
+	<!--Menu 1-->
+	<div class="header">
+		<div id="menu">
+
+				<a href="#"><img src="images/logo.png" id="logo"></a>
+
+			<div class="menuItensCarros">				
+				<p class="itens"><a  class="branco" class="colorido" onmouseover="javascript:mostra()">CARROS<small> ▼</small></a></p>
+			</div>
+
+			<div class="menuItensTeste">
+				<p class="itensTesteMenu"><a  class="branco" >TESTES<small> ▼</small></a></p>
+			</div >
+
+			<div class="menuItensNoticia">
+				<p class="itensNoticia"><a class="branco">NOTÍCIAS<small> ▼</small></a></p>
+			</div>
+
+			<div class="menuItensAutoServico">
+				<p class="itensAutoServico"><a class="branco">AUTO-SERVIÇO<small> ▼</small></a></p>
+			</div>
+
+			<div class="menuItensGuiaCompras">
+				<p class="itensGuia"><a href="#" id="guia"class="branco" >GUIA DE COMPRAS</a></p>
+			</div>
+
+			<div class="menuItensTabelaFip">
+				<p class="itensTabelaFip"><a class="branco">TABELA FIP<small> ▼</small></a></p>
+			</div>
+
+			<div class="menuItensAssine">
+				<p class="itensAssine"><a href="#" class="branco">ASSINE</a></p>
+			</div>
+
+			<div id="menuPesuisa">
+				<input type="text" placeholder="   Pesquisar"id="pesquisar"/>
+				<div id="lupa" onclick="alert('ok :)');"></div>
+			</div>
+
+		</div>
+	</div>
+
+	<!--Ferramentas Menu-->
+	<div class="menuFerramentasCarro">
+		<div>
+			
+			<input type="button" value="Ver todos os carros" id="verTodos"class="branco">
+		</div>
+		<div class="menuCarros5">
+			<a href="#"><p class="tamanhoMargem">Lamborgini</p></a>
+			<a href="#"><p class="tamanhoMargem">Mercedes-Benz</p></a>
+			<a href="#"><p class="tamanhoMargem">Mitsubishi</p></a>
+			<a href="#"><p class="tamanhoMargem">Volkswagen</p></a>
+		</div>
+		<div class="menuCarros4">
+			<a href="#"><p class="tamanhoMargem">Jack Motos</p></a>
+			<a href="#"><p class="tamanhoMargem">Jaguar</p></a>
+			<a href="#"><p class="tamanhoMargem">Jeep</p></a>
+			<a href="#"><p class="tamanhoMargem">Kia</p></a>
+		</div>
+		<div class="menuCarros3">
+			<a href="#"><p class="tamanhoMargem">Fiat</p></a>
+			<a href="#"><p class="tamanhoMargem">Ford</p></a>
+			<a href="#"><p class="tamanhoMargem">Honda</p></a>
+			<a href="#"><p class="tamanhoMargem">Hyundai</p></a>
+		</div>
+		<div class="menuCarros2">
+			<a href="#"><p class="tamanhoMargem">Chrysler</p></a>
+			<a href="#"><p class="tamanhoMargem">Chevrolet</p></a>
+			<a href="#"><p class="tamanhoMargem">Dodge</p></a>
+			<a href="#"><p class="tamanhoMargem">Ferrari</p></a>
+		</div>
+		<div class="menuCarros1">
+			<a href="#"><p class="tamanhoMargem">Audi</p></a>
+			<a href="#"><p class="tamanhoMargem">Bentley</p></a>
+			<a href="#"><p class="tamanhoMargem">BMW</p></a>
+			<a href="#"><p class="tamanhoMargem">Chevrolet</p></a>
+		</div>
+	</div>
+
+	<div class="menuFerramentasTeste">
+		<div class="menuTeste">
+			<br><p class="itensTeste" id="VerTudoTopo">Ver tudo de testes<small> ►</small></p>
+			<p class="itensTeste" >Comparativos</p>
+			<p class="itensTeste">Impressões</p>
+			<p class="itensTeste">Longa Duração</p>
+			<p class="itensTeste">Teste de Pista</p>
+		</div>
+		<div id="ferramentasimg1">
+			<a href="#"><img class="imgdesc" src="images/imgMenuFerramentas.png" ></a>
+			<p class="textoBranco">Ford Focus Fastback </br>Titanium Plus</p>
+		</div>
+		<div id="ferramentasimg2">
+			<a href="#"><img src="images/imgMenuFerramentas1.png" class="imgdesc"></a>
+			<p class="textoBranco">Audi A6 2.0 TFSI</p>
+		</div>
+		<div id="ferramentasimg3">
+			<a href="#"><h5 id="tituloFord">Ford EcoSport 1.6 Powershift</h5 class="imgdesc"></a>
+
+			<span id="descricao">EcoSport ganha motor 1.6</br> atrelado à transmissão </br>automatizada de 6...</span>
+		</div>
+		<div id="ferramentasimg4">
+			<a href="#"><img src="images/imgMenuFerramentas2.png" class="imgdesc"></a>
+			<p class="textoBranco">Audi Q3 1.4</p>
+		</div>
+		<div id="ferramentasimg5">
+			<a href="#"><img src="images/imgMenuFerramentas3.png" class="imgdesc"></a>
+			<p class="textoBranco">BMW 420i Cabriolet</p>
+		</div>
+	</div>
+
+	<!--Menu 2-->
+	<div class="header2">
+		<div class="headerItens">
+			<a href="#"><img src="images/acessados.png" id="maisAcessados"></a>
+				<ul class="segundoMenu" >
+					<li><a href="#"  class="branco" class="menu2" >SALÃO DO AUTOMÓVEL</a></li>
+					<li><a href="#" class="branco"class="menu2">RENEGATE</a></li>
+					<li><a href="#" class="branco"class="menu2">NOVO SANDERO</a></li>
+					<li><a href="#" class="branco"class="menu2">NOVO FOX</a></li>
+					<li><a href="#" class="branco"class="menu2">NOVO KA</a></li>
+					<li><a href="#" class="branco"class="menu2">HB20</a></li>
+					<li><a href="#" class="branco"class="menu2">DUSTER</a></li>
+					<li><a href="#" class="branco"class="menu2">GOLF</a></li>
+					<li><a href="#" class="branco"class="menu2">COROLLA</a></li>
+					<li><a href="#" class="branco"class="menu2">CIVIC</a></li>
+					<li><a href="#" class="branco"class="menu2">IA-ZI</a></li>
+				</ul>
+		</div>
+	</div>
+	<!--Banners Meio-->
+	<div class="centro">
+		<div class="bannerMaior">
+			<a href="#"><img src="images/img1.png" id="img1"></a>
+		</div>
+
+		<div class="imagensCarros" class="row-fluid">
+			<div class="bannersCarros1">
+				<a href="#"><img src="images/img3.png" id="imgCarros1"></a></div>
+				<a href="#"><img src="images/img2.png" id="imgCarros2"></a></div>
+				<a href="#"><img src="images/img5.png" id="imgCarros3"></a></div>
+				<a href="#"><img src="images/img4.png" id="imgCarros4"></a></div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="imagensDescricao">
+		<div><a href="#"><img src="images/imgDescricao4.png"  id="imgDesc4" style="float: right"></a></div>
+		<div><a href="#"><img src="images/imgDescricao3.png"  id="imgDesc3" style="float: right"></a></div>
+		<div><a href="#"><img src="images/imgDescricao2.png" id="imgDesc2" style="float: right"></a></div>
+		<div><a href="#"><img src="images/imgDescricao1.png"  id="imgDesc1" style="float: right"></a></div>
+	</div>
+</body>
+</html>

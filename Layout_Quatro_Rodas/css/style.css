@@ -1,0 +1,402 @@
+body{
+	background-color: #e6e6e6;
+}
+.topo{
+	text-align: center;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+#topoBanner{
+	width: 50%;
+}
+
+/*Menu 1 */
+.header{
+	height: 80px;
+	background-color: #ff1821;
+	width: 98%;
+	margin: auto;
+}
+#menuPrincipal {
+	margin-top: -3.8%;
+	margin-left: 28%;
+}
+#logo{
+	margin-left: 1.4%;
+	float: left;
+}
+#menuPesuisa{
+	margin-right: 1%;
+	position: relative;
+}
+.menuItensLogo{
+	float: left;
+
+}
+.menuItensCarros:hover{
+	background-color: #242424;
+}
+.menuItensTeste:hover{
+	background-color: #242424;
+}
+.menuItensNoticia:hover{
+	background-color: #242424;
+}
+.menuItensAutoServico:hover{
+	background-color: #242424;
+}
+.menuItensTabelaFip:hover{
+	background-color: #242424;
+}
+.menuItensCarros{
+	float: left;
+	height: 80px;
+	cursor: pointer;
+	margin-left: 13.5%;
+}
+.menuItensTeste{
+	float: left;
+	height: 80px;
+	cursor: pointer;
+}
+.menuItensNoticia{
+	float: left;
+	height: 80px;
+	cursor: pointer;
+}
+.menuItensAutoServico{
+	float: left;
+	height: 80px;
+	cursor: pointer;
+}
+.menuItensGuiaCompras{
+	float: left;
+	height: 80px;
+	cursor: pointer;
+}
+.menuItensTabelaFip{
+	float: left;
+	height: 80px;
+	cursor: pointer;
+}
+.menuItensAssine{
+	float: left;
+	height: 80px;
+}
+#menu ul li { 
+	display: inline; 
+	cursor: pointer;
+}
+.itens{
+	margin-top: 46%;
+	color: white;
+	padding-left: 10px;
+	padding-right: 5px;
+	font-size: 12px;
+}
+.itensTesteMenu{
+	margin-top: 50%;
+	color: white;
+	padding-left: 5px;
+	padding-right: 10px;
+	font-size: 12px;
+}
+.itensNoticia{
+	margin-top: 46.4%;
+	color: white;
+	padding-left: 10px;
+	font-size: 12px;
+}
+.itensAutoServico{
+	margin-top: 33%;
+	color: white;
+	padding-left: 10px;
+	font-size: 12px;
+}
+.itensTabelaFip{
+	margin-top: 41%;
+	color: white;
+	padding-left: 10px;
+	font-size: 12px;
+}
+.itensAssine{
+	margin-top: 65%;
+	color: white;
+	padding-left: 10px;
+	font-size: 12px;
+}
+.itensGuia{
+	margin-top: 28.4%;
+	color: white;
+	padding-left: 10px;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+.branco:hover{
+	text-decoration: none;
+	color: white;
+}
+.branco{
+	color: white;
+	font-size: 12px;
+}
+#pesquisar{
+	margin-top: 2%;
+	margin-left: 3%;
+	width: 14%;
+}
+/* campo do formulário */
+input{
+   border:#ddd solid 1px;
+   float:left;
+   padding:5px 20px 5px 5px
+}
+
+/* formatação do elemento */
+#lupa{
+   float:left;
+   margin:2.2% 0px 0px -20px;
+   cursor:pointer
+}
+
+/* formatação do conteúdo  */
+#lupa:after{
+   font-family:FontAwesome;
+   font-size:14px;
+   content:"\f002"
+}
+
+
+/*Menu 2 */
+.header2{
+	background-color: #242424;
+	width: 98%;
+	margin: auto;
+}
+#maisAcessados{
+	width: 10.6%;
+	float: left;
+}
+.segundoMenu li{
+	display: inline;
+	padding-right: 30px;
+
+}.segundoMenu{
+	float: left;
+	margin-top: 5px;
+	margin-left: 2%;
+}
+.headerItens{
+	height: 29px;
+}
+
+
+
+/*Menus Ferramentas Carros*/
+.menuFerramentasCarro{
+	width: 98%;
+	height: 160px;
+	background-color: #242424;
+	display: none;
+	z-index: 9999;
+	position: absolute;
+	border-bottom: 1px solid red;
+	margin-left: 1%;
+}
+
+#verTodos{
+	margin-top: 18px;
+	margin-left: 15px;
+	margin-right: 1%;
+	padding: 3px 20px 3px 20px;
+}
+input{
+	background-color: #474747;
+	width: 13%;
+	height: 35px;
+	border: 0px;
+}
+.menuCarros1{
+	float: right;
+	margin: 20px 160px 0px 0px;
+}
+.menuCarros2{
+	float: right;
+	margin: 20px 10% 0px 30px;
+}
+.menuCarros3{
+	float: right;
+	margin: 20px 10% 0px 30px;
+}
+.menuCarros4{
+	float: right;
+	margin: 20px 10% 0px 30px;
+}
+.menuCarros5{
+	float: right;
+	margin: 20px 6% 0px 2%;
+}
+.tamanhoMargem{
+	margin-bottom: 12px;
+	color: white;
+}
+.tamanhoMargem:hover{
+	text-decoration: none;
+	color: white;
+}
+
+/*Menus Ferramentas Teste*/
+small{
+	float: right;
+}
+.menuFerramentasTeste{
+	width: 98%;
+	height: 210px;
+	background-color: #242424;
+	display: none;
+	position: absolute;
+	z-index: 9999;
+	border-bottom: 1px solid red;
+	margin-left: 1%;
+}
+.imgdesc{
+	width: 100%;
+}
+.menuTeste{
+	width: 13%;
+	height: 210px;
+	background-color: #474747;
+	float: left;
+}
+.menuTeste p{
+	cursor: pointer;
+}
+.itensTeste{
+	color: white;
+	width: 84%;
+	height: 25px;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: right;
+}
+#VerTudoTopo{
+	height: 25px;
+	padding: 4px 12px 0px 16px;
+	background-color: #242424;
+}
+#tituloFord{
+	font-size: 13px;
+	color: white;
+	margin-top: 2px;
+}
+.textoBranco{
+	color: white;
+	margin-top: 5px;
+}
+#descricao{
+	color: #ed1c24;
+}
+#ferramentasimg1{
+	float: left;
+	width: 15%;
+	margin-left: 2%;
+	margin-top: 1.8%;
+}
+#ferramentasimg2{
+	float: left;
+	width: 15%;
+	margin-left: 2%;
+	margin-top: 1.8%;
+}
+#ferramentasimg3{
+	float: left;
+	width: 15%;
+	margin-left: 2%;
+	margin-top: 1.8%;
+}
+#ferramentasimg4{
+	float: left;
+	width: 15%;
+	margin-left: 2%;
+	margin-top: 1.8%;
+}
+#ferramentasimg5{
+	float: left;
+	width: 15%;
+	margin-top: 1.8%;
+	margin-left: 2%;
+}
+
+
+/*Banner meio */
+.bannerMaior{
+	width: 46%;
+	margin-top: 8px;
+
+}
+.imagensCarros{
+	float: right;
+	margin-top: -37.5%;
+	width: 53.8%;
+}
+.bannersCarros1{
+	background-color: yellow;
+}
+.centro{
+	width: 98%;
+	background-color: black;
+	margin: auto;
+}
+#imgCarros1{ 
+	float: right;
+	width: 50%;
+}
+#imgCarros2{
+	float: right;
+	width: 50%;
+}
+#imgCarros3{
+	width: 26.8%;
+	float: right;
+	margin-top: -18.9%;
+} #imgCarros4{
+	width: 26.5%;
+	margin-top: -20.19%;
+	margin-left: 46.2%;
+} 
+
+/*Imagens com Descrição*/
+.imagensDescricao{
+	width: 98%;
+	background-color:red;
+	margin-top: 28px;
+	margin: auto;
+}
+#imgDesc1, #imgDesc2, #imgDesc3{
+	margin-right: 0.61%;
+	width: 24.54%;
+}
+#imgDesc4{
+	width: 24.54%;
+}
+
+/*Aparecer Div com Ferramentas*/
+.menuItensCarros:hover + .menuFerramentasCarro {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
